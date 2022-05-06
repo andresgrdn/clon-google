@@ -1,0 +1,46 @@
+.search__bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-shadow: 0 1px 8px var(--color-secondary);
+  border: 1px solid var(--color-search-border);
+  border-radius: 20px;
+  max-width: 640px;
+  height: 40px;
+
+  background: var(--color-search-background);
+  overflow: hidden;
+}
+
+.search__bar:hover {
+  border: 1px solid hsla(0, 0%, 0%, 0);
+
+  background: var(--color-ligth);
+}
+
+.search__lupa {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40px;
+  height: 100%;
+}
+
+.search__input {
+  border: none;
+  height: 100%;
+  width: 100%;
+
+  background: rgba(0, 0, 0, 0);
+  color: var(--color-white);
+}
+
+.search__mic-button {
+  border: none;
+  width: 40px;
+  height: 100%;
+
+  text-align: center;
+
+  background: rgba(0, 0, 0, 0);
+}
