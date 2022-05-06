@@ -9,8 +9,15 @@ html {
 }
 
 :root {
+  --space-sm: 20px;
+  --space-md: 24px;
+
+  --sm: 1.2rem;
   --md: 1.6rem;
 
+  --font: sans-serif;
+
+  --color-white: #ffffff;
   --color-primary: #202124;
   --color-secondary: #171717;
   --color-ligth: #303134; /*Buttons color*/
@@ -23,9 +30,8 @@ html {
 }
 
 body {
+  font-family: var(--font);
   font-size: var(--md);
-}
 
-body {
   background: var(--color-primary);
 }

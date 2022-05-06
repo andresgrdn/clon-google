@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: var(--space-sm);
+
+  padding: 0 var(--space-sm);
+  height: 60px;
+}
+
+.header>a {
+  font-size: var(--sm);
+  text-decoration: none;
+
+  color: var(--color-white);
+}
+
+.header>a:hover {
+  text-decoration: revert;
+}
+
+.header__google-apps {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+.header__google-apps:hover {
+  background: var(--color-apps-hover);
+}
