@@ -2,7 +2,7 @@
   display: flex;
   justify-content: end;
   align-items: center;
-  gap: var(--space-sm);
+  gap: var(--space-md);
 
   padding: 0 var(--space-sm);
   height: 60px;
@@ -28,8 +28,17 @@
   width: 40px;
 
   overflow: hidden;
+  cursor: pointer;
 }
 
 .header__google-apps:hover {
   background: var(--color-apps-hover);
+}
+
+.header__google-apps:active {
+  background: var(--color-apps-active);
+}
+
+.header__google-user-account {
+  cursor: pointer;
 }

@@ -9,7 +9,7 @@ html {
 }
 
 :root {
-  --space-sm: 20px;
+  --space-sm: 16px;
   --space-md: 24px;
 
   --sm: 1.2rem;
@@ -21,7 +21,7 @@ html {
   --color-primary: #202124;
   --color-secondary: #171717;
   --color-ligth: #303134; /*Buttons color*/
-  --color-border: #5f6368;/*Buttons border color when active*/
+  --color-border: #5f6368; /*Buttons border color when active*/
   --color-apps-hover: #2f3034;
   --color-apps-active: #38393d;
   --color-link: #4585f1;
@@ -34,4 +34,8 @@ body {
   font-size: var(--md);
 
   background: var(--color-primary);
+}
+
+img {
+  display: block;
 }
