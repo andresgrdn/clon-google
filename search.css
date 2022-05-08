@@ -13,15 +13,17 @@
   overflow: hidden;
 }
 
-.search__bar:hover {
+.search__bar:hover,
+.search__bar:focus-within {
   border: 1px solid hsla(0, 0%, 0%, 0);
 
   background: var(--color-ligth);
 }
 
 .search__lupa {
-  margin-left: auto;
-  margin-right: auto;
+  display: grid;
+  place-content: center;
+
   width: 40px;
   height: 100%;
 }
@@ -31,16 +33,23 @@
   height: 100%;
   width: 100%;
 
+  font-size: var(--md);
+
   background: rgba(0, 0, 0, 0);
   color: var(--color-white);
 }
 
+.search__input:focus-visible {
+  outline: none;
+}
+
 .search__mic-button {
+  display: grid;
+  place-content: center;
+
   border: none;
   width: 40px;
   height: 100%;
-
-  text-align: center;
 
   background: rgba(0, 0, 0, 0);
 }
