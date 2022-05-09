@@ -9,6 +9,9 @@ html {
 }
 
 :root {
+  --round-sm: 4px;
+
+  --space-xs: 12px;
   --space-sm: 16px;
   --space-md: 24px;
 
