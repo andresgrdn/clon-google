@@ -1,0 +1,14 @@
+.main p {
+  font-size: var(--sm);
+
+  color: var(--color-white);
+}
+
+.main a {
+  text-decoration: none;
+  color: var(--color-link);
+}
+
+.main a:hover {
+  text-decoration: revert;
+}
