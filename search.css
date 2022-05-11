@@ -1,3 +1,7 @@
+.search {
+  text-align: -webkit-center;
+}
+
 .search__bar {
   display: flex;
   align-items: center;

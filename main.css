@@ -1,3 +1,12 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-md);
+
+  padding: var(--space-md);
+}
+
 .main p {
   font-size: var(--sm);
 
